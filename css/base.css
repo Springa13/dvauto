@@ -1,0 +1,90 @@
+html {
+    font-family:Helvetica, sans-serif;
+}
+
+p {
+    color: white;
+    margin: 0;
+}
+
+.nav {
+    margin: auto;
+    width: 75%;
+    height: auto;
+    background-color: none;
+    align-content: center;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    border-width: 0px 0px 5px 0px;
+    border-style: solid;
+    border-image: linear-gradient(to right, green 33%, white 33% 66%, red 66% 100%);
+    border-image-slice: 1;
+    padding-bottom: 10px;
+}
+
+.logo {
+    width: 450px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5%;
+}
+
+a:hover {
+    color: red;
+}
+
+.main {
+    background-color: none;
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    opacity: 1;
+    /* border-radius: 5px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid; */
+}
+
+.content {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 5%;
+    background-color:none;
+    display: flex;
+    background-color: none;
+    margin-bottom: 5%;
+}
+
+
+
+p, h1, h2 {
+    color: white;
+    
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.phnum {
+    text-decoration: underline;
+    height: auto;
+    line-height: normal;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
